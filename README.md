@@ -11,3 +11,4 @@
     net.add(activation('relu'))
     net.add(inner_product(1))
     net.add(activation('sigmoid'))
+
