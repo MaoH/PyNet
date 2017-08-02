@@ -125,7 +125,7 @@ class inner_product(layer):
       
         
         
-#激活函数层
+#activation layer
 class activation(layer):
     def __init__(self, neural_type = 'relu', name = 'activation'):
         layer.__init__(self,name)
